@@ -22,12 +22,6 @@ void setup() {
 
 void loop()
 { 
-  everything();
-}
-
-void everything()
-{
   followLine();
-
   if(binDetected()) dispenseCube();
 }
